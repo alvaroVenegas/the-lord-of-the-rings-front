@@ -1,0 +1,21 @@
+.c-locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    border-radius: 10px;
+    background-color: rgb(245, 224, 129);
+    box-shadow: 10px 5px 5px grey ;
+    margin: 20px;
+    padding:5px;
+    min-width: 200px;
+    min-height: 300px;
+    &:hover{
+        box-shadow: 11px 6px 5px grey ;
+        opacity: 0.5;
+    }
+
+}
